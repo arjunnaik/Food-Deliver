@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Food Deliver</string>
+    <string name="logIn">Login</string>
+    <string name="forgotPassword">Forgot Password?</string>
+    <string name="signUp">Don\'t have an account? Sign up now</string>
+    <string name="enterYourMobileAndEmail">Enter your registered mobile number and email below:</string>
+    <string name="mobileNumber">Mobile Number (10 digits)</string>
+    <string name="password">Password</string>
+    <string name="name_min_3_characters">Name (Min. 3 characters)</string>
+    <string name="email_address">Email Address</string>
+    <string name="mobile_number_10_digits">Mobile Number (10 digits)</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="password_min_4_characters">Password (Min. 4 characters)</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="preferences_file_name">Food Runner Preferences</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="choose_from_menu_listed_below">Choose from menu listed below:</string>
+</resources>

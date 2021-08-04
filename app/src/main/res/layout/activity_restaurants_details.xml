@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RestaurantsDetailsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <TextView
+        android:id="@+id/txtChooseFromMenuListed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_margin="12dp"
+        android:text="@string/choose_from_menu_listed_below"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgFavourite"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/toolbar"
+        android:layout_alignParentRight="true"
+        android:layout_margin="7dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_favourite_without_border" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerRestaurantsDetails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btnProceedToCart"
+        android:layout_below="@id/txtChooseFromMenuListed"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:id="@+id/btnProceedToCart"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="Proceed to Cart"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+
+    <RelativeLayout
+        android:id="@+id/progressLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
