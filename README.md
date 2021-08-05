@@ -2,7 +2,7 @@
 Food Ordering App Using kotlin,xml,json and local database
 
 
-Download apk [here](https://github.com/amn-max/Opengl-Pathfinding-Visualizer/blob/master/Debug/graph.exe?raw=true)
+Download apk [here](https://github.com/arjunnaik/Food-Deliver/blob/master/Food%20Runner.apk)
 
 
 # Screenshots
